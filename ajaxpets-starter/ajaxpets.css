@@ -1,0 +1,30 @@
+/*
+ * CSE 154 Autumn 2018
+ * Week 5 Section
+ *
+ * CSS for Ajax Pets Exercise
+ */
+footer {
+  background-color: #e3e3e3;
+  bottom: 0;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+}
+
+footer p {
+  font-style: italic;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  margin: 5px;
+}
+
+#pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+}

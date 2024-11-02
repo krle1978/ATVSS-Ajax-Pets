@@ -1,0 +1,37 @@
+<!--
+  CSE 154 Autumn 2018
+  Week 5 Section | Ajax Pets
+
+  A webpage for showcasing photos for puppies or kitties. Puppies are the best of course.  
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pet Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ajaxpets.css">
+    <script src="ajaxpets.js"></script>
+  </head>
+  
+
+  <body>
+    <header>
+      <h1>Ajax Pet Gallery!</h1>
+    </header>
+    <main>
+      <p>Click the type of animals you want to see:</p>
+
+      <div>
+        <label><input value="kitty" type="radio" name="animal" /> Kitties</label>
+        <label><input value="puppy" type="radio" name="animal" /> Puppies</label>
+      </div>
+
+      <div id="pictures"></div>
+    </main>
+    <footer>
+      <p>
+        Images in this page accumulated from various instructors, TAs, students, etc. for CSE 154.
+      </p>
+    </footer>
+  </body> 
+</html>
